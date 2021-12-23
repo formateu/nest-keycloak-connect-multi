@@ -3,7 +3,7 @@
 import { LogLevel } from '@nestjs/common';
 import { PolicyEnforcementMode, TokenValidation } from '../constants';
 
-export type KeycloakConnectOptions = string | KeycloakConnectConfig;
+export type KeycloakConnectOptions = KeycloakConnectConfig;
 
 /**
  * Multi tenant configuration.
@@ -171,4 +171,9 @@ export interface KeycloakCredentials {
    * Client/Application secret.
    */
   secret: string;
+
+  /**
+   * Client/Application secrets mapped per realm
+   */
+  realmSecretMap?: Map<string, string>;
 }
