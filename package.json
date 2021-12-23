@@ -1,8 +1,8 @@
 {
-  "name": "nest-keycloak-connect",
-  "version": "1.8.0-alpha.2",
-  "description": "keycloak-nodejs-connect module for Nest",
-  "author": "John Joshua Ferrer <johnjoshuaferrer@disroot.org>",
+  "name": "nest-keycloak-connect-multi",
+  "version": "1.0.0",
+  "description": "Temporary fork of keycloak-nodejs-connect module dev version for Nest",
+  "author": "John Joshua Ferrer <johnjoshuaferrer@disroot.org>, Mateusz Forc <formateu@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start:dev": "tsc -w",
@@ -21,9 +21,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ferrerojosh/nest-keycloak-connect"
+    "url": "https://github.com/formateu/nest-keycloak-connect-multi"
   },
-  "bugs": "https://github.com/ferrerojosh/nest-keycloak-connect/issues",
+  "bugs": "https://github.com/formateu/nest-keycloak-connect-multi/issues",
   "peerDependencies": {
     "@nestjs/core": "^6.0.0 || ^7.0.0 || ^8.0.0",
     "@nestjs/common": "^6.0.0 || ^7.0.0 || ^8.0.0",
