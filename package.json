@@ -1,6 +1,6 @@
 {
   "name": "nest-keycloak-connect-multi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Temporary fork of keycloak-nodejs-connect module dev version for Nest",
   "author": "John Joshua Ferrer <johnjoshuaferrer@disroot.org>, Mateusz Forc <formateu@gmail.com>",
   "license": "MIT",
